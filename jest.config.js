@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: 'jsdoom',
+  testEnvironment: 'jest-environment-jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts(x)'],
